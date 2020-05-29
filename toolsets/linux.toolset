@@ -1,0 +1,5 @@
+
+
+template: __builtin_clang
+compiler: clang++-9 -std=c++2a -Wall -Wextra -Wpedantic -O3 -stdlib=libc++
+linker: clang++-9 -std=c++2a -stdlib=libc++
